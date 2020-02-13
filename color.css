@@ -1,0 +1,80 @@
+body{
+    background-color:#232323 ;
+    margin: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.square {
+    width: 30%;
+    background-color: blue;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 10%;
+    transition: background 0.4s;
+    -webkit-transition: background 0.4s;
+    -moz-transition: background 0.4s;
+}
+
+#container{
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+h1{
+    text-align: center;
+    line-height: 1.1;
+    font-weight: normal;
+    color:white;
+    background: steelblue;
+    margin: 0px;
+    text-transform: uppercase;
+    padding: 20px 0;
+
+}
+
+#stripe{
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    color: black;
+}
+
+.selected {
+    background: steelblue;
+    color: white;
+}
+
+#colorDisplay{
+    font-size: 150%;
+}
+
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+
+}
+
+#message{
+    display: inline-block;
+    width: 20%;
+    font-size: 20px;
+}
+
+button:hover{
+    color: white;
+    background: steelblue;
+}
+
+#instruciones{
+    font-size: 25px;
+}
